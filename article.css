@@ -1,0 +1,62 @@
+body {
+
+	height: 100%;
+	max-width: 1200px;
+	/*border: 0.5px solid lightgray;*/
+	margin: auto;
+}
+
+
+
+
+
+.main-header {
+	background-color: SteelBlue;
+	border-radius: 6px;
+	color: white;
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: poppins;
+	font-size: 20px;
+	height: 200px;
+	/*background-image: url("img/vr-space.jpg");*/
+
+}
+
+/*#navbar a {
+
+}
+*/
+#navbar a:hover {
+	color: DarkSlateGray;
+}
+
+#navbar li {
+	display: inline;
+	text-align: center;
+
+}
+
+#navbar li a {
+	display: inline-block;
+	width: 70px;
+	background-color: LightSeaGreen;
+	border-radius: 6px;
+	border: .05px solid black;
+	text-decoration: none;
+	color: white;
+	padding-right: 9px;
+}
+
+#navbar ul {
+	list-style-type: none;
+	font-size: 18px;
+	margin-top: -150px;
+	margin-right: 5px;
+}
+#navbar {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}

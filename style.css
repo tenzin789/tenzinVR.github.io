@@ -1,0 +1,264 @@
+body {
+
+	height: 100%;
+	max-width: 1200px;
+	/*border: 0.5px solid lightgray;*/
+	margin: auto;
+	background-color: WhiteSmoke;
+}
+
+
+
+/*hr {
+    height: 1px;
+    width: 50%;
+}
+*/
+.main-header h1 {
+	letter-spacing: 3px;
+}
+
+.main-header {
+	background-color: SteelBlue;
+	border-radius: 0px 0px 4px 4px;
+	color: white;
+	padding-top: 15px;
+	margin-top: -10px;
+	/*margin-bottom: 5px;*/
+	text-align: center;
+	font-family: poppins;
+	font-size: 20px;
+	height: 200px;
+	/*background-image: url("img/vr-space.jpg");*/
+
+}
+
+.main-header p {
+	font-family: roboto;
+	letter-spacing: 5px;
+}
+/*#navbar a {
+
+}
+*/
+#navbar a:hover {
+	color: black;
+	background-color: #e7e7e7;
+
+}
+
+#navbar li {
+	display: inline;
+	text-align: center;
+	/*margin-right: 5px;*/
+}
+
+#navbar a {
+	padding: 4px 5px 4px 4px;
+}
+
+#navbar li a {
+	display: inline-block;
+	background-color: LightSeaGreen;
+	border-radius: 5px;
+	box-shadow: 1px 1.5px black;
+	border: .05px solid black;
+	text-decoration: none;
+	color: white;
+	width: 100px;
+	font-family: permanent marker;
+	margin-right: 5px;
+
+	
+}
+
+#navbar ul {
+	list-style-type: none;
+	font-size: 18px;
+	margin: auto;
+	max-width: 1200px;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-right: 130px;
+
+}
+#navbar {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	max-width: 1200px;
+	text-align: center;
+	border-radius: 4px 4px 0px 0px;
+	background-color: #001f44;
+	/*border: .5px solid black;*/
+	position: relative;
+	height: 60px;
+
+}
+
+/*-------------Page title/logo--------------*/
+.name {
+	float: left;
+	position: relative;
+	font-family: knewave;
+	font-size: 40px;
+	display: inline;
+	padding-left: 5px;
+	color: white;
+	}
+/*------------------end----------------------*/
+
+#about h2 {
+	text-align: center;
+	background-color: steelblue;
+	font-family: roboto;
+	font-size: 22px;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+	width: 250px;
+	margin: auto;
+}
+#about figcaption {
+	text-align: center;
+}
+#about img {
+	display: block;
+	margin: auto;
+	height: 300px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.center {
+	display: block;
+	margin: auto;
+	padding-top: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+/*.articles1 {
+	padding-top: 30px;
+}*/
+#articles h2 {
+	text-align: center;
+	background-color: steelblue;
+	font-family: roboto;
+	font-size: 22px;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+	width: 250px;
+	margin: auto;
+}
+
+#articles h3 {
+	font-family: sans-serif;
+}
+#contact h2 {
+	text-align: center;
+	background-color: steelblue;
+	font-family: roboto;
+	font-size: 22px;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+	width: 250px;
+	margin: auto;
+}
+
+
+p {
+	font-family: sans-serif;
+}
+
+/*h2 {
+	font-family: open sans-serif;
+}
+*/
+.toggle {
+	max-width: 1200px;
+	padding: 10px 20px;
+	height: 60px;
+	background-color: #001f44;
+	text-align: right;
+	box-sizing: border-box;
+	color: white;
+	font-size: 40px;
+	display: none;
+
+}
+@media (max-width:768px) 
+    {
+	.toggle {
+		display: block;
+	}
+	ul {
+		width: 100%;
+		display: none;
+	}
+	ul li {
+    	display: inline-block;
+    	text-align: center;
+
+	}
+	.active {
+		display: block;
+
+	}
+
+}
+
+
+
+
+.vr {
+	margin: 10px;
+
+}
+.vr p {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.vr img {
+	height: 450px;
+}
+
+/*-------------This is the article landing page---------*/
+#vr-article h2 {
+	text-align: center;
+	background-color: steelblue;
+	font-family: roboto;
+	font-size: 22px;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+	width: 250px;
+	margin: auto;
+}
+
+#vr-article {
+	margin-top: 10px;
+}
+
+#morearticle h3{
+	font-family: sans-serif;
+}
+
+.VRbenefits ol{
+	padding: 0;
+	margin-left: 10px;
+}
+/*----------------------------end---------------------------*/
+
+
+
+footer p{
+	text-align: center;
+	font-family: monda;
+	background-color: gray;
+	height: 30px;
+	padding-top: 3px;
+}
